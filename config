@@ -1,0 +1,86 @@
+Host 1
+    HostName omg.sec.sogou
+    IdentityFile ~/.ssh/id_rsa
+    User xiezhiguo
+    Port 22
+    IdentitiesOnly yes
+
+
+Host g1
+    HostName g01.mssp.tc.ted
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host m1
+    HostName m01.mssp.zw.ted
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host m2
+    HostName m02.mssp.zw.ted
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host m3
+    HostName m03.mssp.zw.ted
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host  master
+    HostName  	10.134.106.205
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host  gateway
+    HostName  	10.142.98.55
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host  187
+    HostName  	10.140.27.187
+    IdentityFile ~/.ssh/id_rsa
+    User xiezhiguo
+    Port 22
+    IdentitiesOnly yes
+
+Host thanos1 
+    HostName  10.142.112.154	
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host thanos2 
+    HostName  10.142.39.148	
+    IdentityFile ~/.ssh/id_rsa
+    User root
+    Port 22
+    IdentitiesOnly yes
+
+Host oracle_ssd_sdb
+    HostName 10.164.34.197
+    User root
+
+Host oracle_ssd_pub
+    HostName 10.164.34.194
+    User root
+
+Host oracle_pub
+    HostName mappub.sogou
+    User root
+
+Host oracle_sdb
+    HostName sdb.sogou
+    User root
