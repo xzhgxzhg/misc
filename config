@@ -50,10 +50,7 @@ Host  gateway
 
 Host  187
     HostName  	10.140.27.187
-    IdentityFile ~/.ssh/id_rsa
     User xiezhiguo
-    Port 22
-    IdentitiesOnly yes
 
 Host thanos1 
     HostName  10.142.112.154	
@@ -78,9 +75,26 @@ Host oracle_ssd_pub
     User root
 
 Host oracle_pub
-    HostName mappub.sogou
+    HostName 10.143.41.95
     User root
 
 Host oracle_sdb
     HostName sdb.sogou
+    User root
+
+Host oracle_ytt_pub
+    HostName 10.162.131.121
+    User root
+
+Host monitor
+    HostName monitor.map.sogou
+    User root
+
+Host poi_release 
+    HostName  10.160.72.163	
+    User root
+
+
+Host poi_develop 
+    HostName  10.160.67.157	
     User root
