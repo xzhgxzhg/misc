@@ -79,7 +79,7 @@ Host oracle_pub
     User root
 
 Host oracle_sdb
-    HostName sdb.sogou
+    HostName 10.162.42.88
     User root
 
 Host oracle_ytt_pub
