@@ -1,9 +1,6 @@
 Host 1
     HostName omg.sec.sogou
-    IdentityFile ~/.ssh/id_rsa
     User xiezhiguo
-    Port 22
-    IdentitiesOnly yes
 
 
 Host g1
@@ -86,6 +83,10 @@ Host oracle_ytt_pub
     HostName 10.162.131.121
     User root
 
+Host oracle_tsdb
+    HostName 10.162.41.122
+    User ora11g
+
 Host monitor
     HostName monitor.map.sogou
     User root
@@ -98,3 +99,40 @@ Host poi_release
 Host poi_develop 
     HostName  10.160.67.157	
     User root
+
+Host tcSpark 
+    HostName 82.156.44.151	
+    User root
+    Port 36000
+
+Host sgSpark 
+    HostName 10.160.24.167	
+    User root
+
+Host sgSpark2 
+    HostName 10.164.34.199	
+    User root
+
+Host  199
+    HostName 10.164.34.199	
+    User root
+
+Host crawler
+    HostName 10.162.42.53	
+    User crawler
+
+Host lab2
+    HostName 10.164.34.80
+    User root
+
+Host 115
+    HostName 10.140.69.115
+    User root
+
+Host 192
+    HostName 10.154.100.192
+    User root
+
+Host event_release
+    HostName  10.160.17.206
+    User crawler
